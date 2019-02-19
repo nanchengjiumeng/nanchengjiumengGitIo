@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 多看、多写、多做总结，寻找价值！
-subtitle: 王羽彪__刻意追寻
-description: 以前的博客的开发环境丢失了，现在从头开始！
+title: 刻意追寻_王
+subtitle: 以前的博客的开发环境丢失了，现在从头开始！
+description: 多看、多写、多做总结，寻找价值！
 keywords: 前端学习 前端总结 笔记 生活 王羽彪 
 author: 王羽彪
 language: 中文
@@ -73,7 +73,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: anatole
+### themes setting
+archive_generator:
+  per_page: 0  
+  yearly: false
+  monthly: false
+  daily: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,3 +88,5 @@ deploy:
   repo: https://github.com/nanchengjiumeng/nanchengjiumeng.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
   branch: master #published
   message: Update
+
+
