@@ -1,3 +1,6 @@
+---
+date: 2019-02-20 10:53:39
+---
 # nanchengjiumeng.github.io
 ## hexo 
 [link](https://hexo.io/zh-cn/docs/)
@@ -9,6 +12,9 @@ $ hexo -d 发布到git仓库
 ```
 ## theme
 [link](https://github.com/Ben02/hexo-theme-Anatole/wiki/Installation)
+
+## Pug
+[Pug](https://pug.bootcss.com/language/conditionals.html)
 
 ## 写作
 [link](https://hexo.io/zh-cn/docs/writing)

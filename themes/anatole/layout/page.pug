@@ -1,5 +1,4 @@
 extends partial/layout
-
 block site_title
     != page.title + " · " + config.title
 
@@ -9,7 +8,11 @@ block description
 
 block content
   .autopagerize_page_element: .content: .post-page
-    include mixins
-    +make_post(page, true)
-    if page.comments
-        include partial/comments
+    if page.path.includes("about")
+       include mixins
+       +make_post(page, true)
+    else
+      include mixins
+      +make_post(page, true)
+      if page.comments
+          include partial/comments

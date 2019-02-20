@@ -3,18 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 刻意追寻_王
+title: 南城旧梦
 subtitle: 以前的博客的开发环境丢失了，现在从头开始！
 description: 多看、多写、多做总结，寻找价值！
 keywords: 前端学习 前端总结 笔记 生活 王羽彪 
 author: 王羽彪
-language: 中文
+language: zh-cn
 timezone:
+# avatar: /images/logo.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: nanchengjiumeng.github.io
-root: /blog/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 

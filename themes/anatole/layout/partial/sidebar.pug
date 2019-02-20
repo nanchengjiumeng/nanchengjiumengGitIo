@@ -33,4 +33,9 @@
       li
         a(href="http://github.com/" + theme.github)
           i.fa.fa-github
+  .tags-links
+    each tag,index in site.tags.data
+       a(href="/tags/"+tag.name)
+        i= tag.name
+
   include footer
