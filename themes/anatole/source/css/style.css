@@ -111,12 +111,19 @@ a:hover, a:active {
 .content {
   height: auto;
   float: right;
-  width: 60%;
+  width: 70%;
   margin-top: 60px;
 }
 
+.content .clearfix{
+  overflow: hidden;
+  content: "";
+  font-size: 0;
+  zoom: 1;
+}
+
 .page-top {
-  width: 60%;
+  width: 70%;
   position: fixed;
   right: 0;
   z-index: 3;
@@ -147,30 +154,30 @@ a:hover, a:active {
   border-bottom: 1px solid #5A5A5A;
 }
 .page-top .information {
+  display: none;
   float: right;
-  padding-top: 12px;
-  padding-right: 20px;
+  padding: 14px 15px;
 }
 .page-top .information .avatar {
   float: right;
+  font-size: 0;
 }
 .page-top .information .avatar img {
+  display: block;
   width: 32px;
   height: 32px;
   border-radius: 300px;
 }
 .page-top .information .back_btn {
   float: left;
-  padding-top: 5px;
-  margin-right: -10px;
+  padding: 4px 11px;
 }
 .page-top .information .back_btn li {
   display: initial;
-  padding-right: 40px;
 }
 
 .sidebar {
-  width: 40%;
+  width: 30%;
   -webkit-background-size: cover;
   background-size: cover;
   background-color: #fff;
@@ -242,7 +249,7 @@ a:hover, a:active {
 
 .post {
   background-color: #FFF;
-  margin: 30px;
+  margin: 15px;
 }
 .post .post-title h1 {
   text-transform: uppercase;
@@ -353,7 +360,6 @@ a:hover, a:active {
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 13px;
 }
 .pagination ul li {
   margin: 0 2px 0 2px;
@@ -665,10 +671,16 @@ a.btn {
   padding-top: 50px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 720px) {
+  .logo-title [title]{
+    display: none;
+  }
+
   .sidebar {
     width: 100%;
-    position: absolute;
+    height: auto;
+    position: relative;
+    overflow: hidden;
     border-right: none;
     z-index: 1;
   }
@@ -683,7 +695,18 @@ a.btn {
   }
 
   .page-top {
+    top: 0;
     width: 100%;
+  }
+  .page-top .nav {
+    float: right;
+  }
+  .page-top .information{
+    display: block;
+    float: left;
+  }
+  .page-top .information .back_btn{
+    display: block;
   }
 
   .post-title h3 {
@@ -691,11 +714,11 @@ a.btn {
   }
 
   .content {
-    margin-top: 420px;
     width: 100%;
-    z-index: 2;
-    position: absolute;
+    margin-top: 20px;    
   }
+  
+  
 
   .footer {
     display: none;
