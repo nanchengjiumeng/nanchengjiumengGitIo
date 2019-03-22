@@ -1,29 +1,38 @@
-# 开发参考
+# 对于自己的一些思考
+  目前为止，学习前端有两年的时间了。这两年期间，一些认识的人通过各种方式从前端新手成长为了我眼中的前端大牛。这个过程中我一直有所思考，是什么导致了我的一成不变，看不到进步。自己也有写博客，也有看文章、看书、看文档、写例子、做“总结”。开始认为自己缺乏实际的工作经历，于是找了实习，实习也有多半年，有过充实的感觉，到现在又到了“没有进步”这个坑里。原来的想法被我推翻，我开始认真的反思，实习让我更加熟练的运用了我已有的东西，在某些层面我没有理解更多的只是，也没有做过更加丰富的思考。这篇“总结”，我想保留一下自己的想法，为自己开篇新的一页。
 
-## markdown
-[link](http://www.markdown.cn/)
+## 一本书
 
-## hexo 
-[link](https://hexo.io/zh-cn/docs/)
+《刻意练习 如何从新手到大师》，这本书是实习公司“拓词”(快速背单词APP)产品的核心思想。
+我本来是喜欢看一些小说、传记和偏专业角度（手动滑稽）一点的书的，如最近的《巨人的陨落》、《枪炮细菌与钢铁》、《别逗了，费曼先生》等。对于类似于《21天...》、《人性的...》、《...工作法》是天然抗拒的。因为踩过一些坑，有的偏励志，看完满血复活，事儿一根烟儿了却（本人并不抽烟）。有的给我的感觉相当的变态，动辄几年如一日，按班就点，规律作息，反正自己做不到那样的规律，毕竟尝到了加班的威力，要想生活丰富，规律作息是不可能滴。故初来乍到公司吗，每次看到公司书架上一排《刻意练习》，内心暗笑一声，几个月也没有动过。后来，在公司又温习了一遍《三体》之后，自己翻着看，被书中内容深深滴吸引了。从而引申出了我对自己的学习方法论的思考。
+随着对公司环境越来越熟悉，融入到了团队当中，后在周会越来越频繁，“拓词”开始如火如荼的频繁迭代迭代，自己也加入到了产品的会议中。《刻意练习》开始被反复的提及。随着后来思想上的赶车，“刻意练习”作为方法论，我决定将其作为我的一颗种子，埋进我的内心深处。
 
-```
-$ hexo g 
-打包静态文件
-$ hexo -d 发布到git仓库
-```
-## theme
-[link](https://github.com/Ben02/hexo-theme-Anatole/wiki/Installation)
+## 基础的整理 
+roadmap：[https://github.com/ccloli/developer-roadmap-zh-CN](https://github.com/ccloli/developer-roadmap-zh-CN)
 
-## Pug
-[Pug](https://pug.bootcss.com/language/conditionals.html)
+1. 重整基础思路，做下笔记
+-  HTML
+  - [x] [HTML所有标签](/2019/02/20/HTML所有标签/)
+  - [ ] [Basic SEO](/unfinished/)
 
-## 写作
-[link](https://hexo.io/zh-cn/docs/writing)
+-  JS基础
+  - [x] [数据类型](/2019/02/20/数据类型/)
+  - [ ] [DOM](/unfinished/)
+  - [ ] [Fetch API / AJAX(XHR)](/unfinished/)
+  - [ ] [ES6+ and modular JS](/unfinished/)
+  - [ ] [how browsers work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+  - [ ] [变量提升](/unfinished/)
+  - [ ] [事件](/unfinished/)
+  - [ ] [作用域、原型](/2019/02/25/闭包/)
+  - [ ] [HTTP](/unfinished/)
+  - [ ] [DNS](/unfinished/)
 
-```
-$ hexo new [layout] <title>
-```
-### layout
-- post	source/_posts
-- page	source
-- draft	source/_drafts
+-  CSS
+  - [layouts (floats, positioning, display, box model, css grid, flex box)](/2019/02/25/css-loyouts/)
+  - [selector](/2019/02/28/css选择器/)
+  - [media](/unfinished/)
+  - [CSS3](/unfinished/)
+    
+## 其它
+    
+

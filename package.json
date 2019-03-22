@@ -5,6 +5,14 @@
   "hexo": {
     "version": "3.8.0"
   },
+  "scripts": {
+    "start": "hexo s",
+    "deploy": "hexo d",
+    "d": "hexo d",
+    "public": "hexo g -d",
+    "p": "hexo g -d",
+    "post": "hexo new post"
+  },
   "dependencies": {
     "hexo": "^3.8.0",
     "hexo-deployer-git": "^1.0.0",
