@@ -2,7 +2,7 @@
 title: npm scripts
 date: 2019-03-01 11:16:10
 tags:
-    - Nodejs
+    - nodejs
 ---
 参考链接:
 - [scripts | npm](https://www.npmjs.cn/misc/scripts/)

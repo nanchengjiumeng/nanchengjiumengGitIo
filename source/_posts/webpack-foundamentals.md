@@ -2,7 +2,7 @@
 title: webpack foundamentals
 date: 2019-03-20 18:40:13
 tags:
-    - Nodejs
+    - nodejs
 ---
 # Problem with script Loading
 

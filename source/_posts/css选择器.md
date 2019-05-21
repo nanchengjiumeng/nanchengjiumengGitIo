@@ -2,7 +2,7 @@
 title: css选择器
 date: 2019-02-28 10:23:01
 tags:
-    - CSS
+    - css
 ---
 参考:
 - [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
